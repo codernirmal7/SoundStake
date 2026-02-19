@@ -10,6 +10,7 @@ import ArtistCreatesCampaign from './sections/ArtistCreatesCampaign';
 import Stats from './sections/Stats';
 import WhySolana from './sections/WhySolana';
 import FAQ from './sections/FAQ';
+import Footer from './sections/Footer';
 
 function App() {
   const [isWalletModalOpen, setIsWalletModalOpen] = useState(false);
@@ -32,6 +33,7 @@ function App() {
           <WhySolana />
           <FAQ />
         </main>
+        <Footer />
         <WalletModal
           isOpen={isWalletModalOpen}
           onClose={() => setIsWalletModalOpen(false)}
