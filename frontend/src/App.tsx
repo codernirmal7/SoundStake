@@ -7,6 +7,7 @@ import TheProblem from './sections/TheProblem';
 import TheSolution from './sections/TheSolution';
 import HowItWorks from './sections/HowItWorks';
 import ArtistCreatesCampaign from './sections/ArtistCreatesCampaign';
+import Stats from './sections/Stats';
 
 function App() {
   const [isWalletModalOpen, setIsWalletModalOpen] = useState(false);
@@ -25,6 +26,7 @@ function App() {
           <TheSolution />
           <HowItWorks />
           <ArtistCreatesCampaign />
+          <Stats />
         </main>
         <WalletModal
           isOpen={isWalletModalOpen}
