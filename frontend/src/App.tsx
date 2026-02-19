@@ -5,6 +5,7 @@ import WalletModal from './components/WalletModal'
 import Hero from './sections/Hero';
 import TheProblem from './sections/TheProblem';
 import TheSolution from './sections/TheSolution';
+import HowItWorks from './sections/HowItWorks';
 
 function App() {
   const [isWalletModalOpen, setIsWalletModalOpen] = useState(false);
@@ -21,6 +22,7 @@ function App() {
           <Hero />
           <TheProblem />
           <TheSolution />
+          <HowItWorks />
         </main>
         <WalletModal
           isOpen={isWalletModalOpen}
