@@ -8,6 +8,8 @@ import TheSolution from './sections/TheSolution';
 import HowItWorks from './sections/HowItWorks';
 import ArtistCreatesCampaign from './sections/ArtistCreatesCampaign';
 import Stats from './sections/Stats';
+import WhySolana from './sections/WhySolana';
+import FAQ from './sections/FAQ';
 
 function App() {
   const [isWalletModalOpen, setIsWalletModalOpen] = useState(false);
@@ -27,6 +29,8 @@ function App() {
           <HowItWorks />
           <ArtistCreatesCampaign />
           <Stats />
+          <WhySolana />
+          <FAQ />
         </main>
         <WalletModal
           isOpen={isWalletModalOpen}
