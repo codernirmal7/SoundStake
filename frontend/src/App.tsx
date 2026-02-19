@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import WalletModal from './components/WalletModal'
 import Hero from './sections/Hero';
+import TheProblem from './sections/TheProblem';
 
 function App() {
   const [isWalletModalOpen, setIsWalletModalOpen] = useState(false);
@@ -17,6 +18,7 @@ function App() {
         <Navbar onConnectWallet={handleConnectWallet} />
         <main className="relative">
           <Hero />
+          <TheProblem />
         </main>
         <WalletModal
           isOpen={isWalletModalOpen}
